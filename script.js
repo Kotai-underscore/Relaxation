@@ -12,7 +12,7 @@ function breatheAnimation () {
     container.className = 'container grow'
 
     setTimeout(() => {
-        text.innerText = 'Garde'
+        text.innerText = 'Bloque'
 
         setTimeout(() => {
             text.innerText = 'Expire'
