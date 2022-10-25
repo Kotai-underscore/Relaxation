@@ -9,7 +9,11 @@
 <body>
     <h1>Relaxation</h1>
 
-    <embed src="./ambiant.mp3" loop="true" autostart="true" width="1" height="1"></embed>
+    <iframe src="ambiant.mp3" allow="autoplay" id="audio" hidden ></iframe>
+    <!-- <iframe src="silence.mp3" allow="autoplay" id="audio" style="display: none;"></iframe> -->
+    <audio id="player" autoplay controls>
+        <source src="ambiant.mp3" type="audio/mp3">
+    </audio>
 
     <div class="container"> 
         <div class="circle"></div>
